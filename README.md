@@ -1,7 +1,11 @@
 nebula-config
 =============
 
-DNS, Haproxy, Shellinabox, net2ftp
+
+### impl : DNS, Haproxy, Shellinabox, net2ftp
+### todo : noVNC, Webvirtmgr, Jenkins, Database Hosting
+
+
 
 
 ## DNS
@@ -34,3 +38,6 @@ vi /etc/default/shellinabox
 vi /etc/apache2/httpd.conf
 service apache2 reload
 ```
+
+
+
