@@ -1,0 +1,27 @@
+127.0.0.1	localhost
+127.0.1.1	nebula-Samsung-DeskTop-System
+
+# for FTP
+
+192.168.122.XXX	jj.cloudy.so
+192.168.122.XXX	cquery.cloudy.so
+192.168.122.XXX	youth.cloudy.so
+192.168.122.XXX	nebula.cloudy.so
+
+# for Haproxy
+
+192.168.122.XXX	jj
+192.168.122.XXX	cquery
+192.168.122.XXX	youth
+192.168.122.XXX	nebula
+
+115.145.XXX.XXX	www
+115.145.XXX.XXX	file
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

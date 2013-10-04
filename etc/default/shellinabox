@@ -1,0 +1,18 @@
+# Should shellinaboxd start automatically
+SHELLINABOX_DAEMON_START=1
+
+# TCP port that shellinboxd's webserver listens on
+SHELLINABOX_PORT=4200
+
+# Parameters that are managed by the system and usually should not need
+# changing:
+# SHELLINABOX_DATADIR=/var/lib/shellinabox
+# SHELLINABOX_USER=shellinabox
+# SHELLINABOX_GROUP=shellinabox
+
+# Any optional arguments (e.g. extra service definitions).  Make sure
+# that that argument is quoted.
+#
+#   Beeps are disabled because of reports of the VLC plugin crashing
+#   Firefox on Linux/x86_64.
+SHELLINABOX_ARGS="--no-beep --disable-ssl -s/XXXXXX:SSH:127.0.0.1 -s /jj:SSH:192.168.122.XXX -s /youth:SSH:192.168.122.XXX -s /cquery:SSH:192.168.122.XXX -s /nebula:SSH:192.168.122.XXX"

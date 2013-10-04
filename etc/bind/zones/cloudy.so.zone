@@ -1,0 +1,28 @@
+$ORIGIN .
+$TTL	86400	
+cloudy.so. IN SOA ns1.cloudy.so. root.cloudy.so. (
+	2013093017
+	21600
+	3600
+	604800
+	86400 )
+
+cloudy.so.	IN	NS	ns1.cloudy.so.
+cloudy.so.	IN	MX	10	mail-server.cloudy.so.
+
+$ORIGIN cloudy.so.
+localshost	IN	A	127.0.0.1
+
+ns1	IN	A	115.145.XXX.XXX
+ns2	IN	A	115.145.XXX.XXX
+www	IN	A	115.145.XXX.XXX
+cquery	IN	A	115.145.XXX.XXX
+sample	IN	A	115.145.XXX.XXX
+jj	IN	A	115.145.XXX.XXX
+console IN	A	115.145.XXX.XXX
+youth	IN	A	115.145.XXX.XXX
+nebula	IN	A	115.145.XXX.XXX
+file	IN	A	115.145.XXX.XXX
+
+
+

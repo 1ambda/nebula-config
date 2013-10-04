@@ -1,0 +1,15 @@
+$TTL	10800
+@	IN	SOA	ns1.cloudy.so.	root.cloudy.so. (
+	2013093017
+	21600
+	3600
+	604800
+	86400 )
+
+IN	NS	ns1.cloudy.so.
+XXX	PTR	ns2.cloudy.so.	
+XXX	PTR	www.cloudy.so.
+XXX	PTR	youth.cloudy.so
+XXX	PTR	jj.cloudy.so
+XXX	PTR	cquery.cloudy.so
+
