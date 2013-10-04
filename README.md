@@ -5,7 +5,6 @@ DNS, Haproxy, Shellinabox, net2ftp
 
 
 ## DNS
-======
 
 ```
 vi /etc/bind/zones/cloudy.so.zone
@@ -14,13 +13,24 @@ service bind9 restart
 ```
 
 
-
 ## Haproxy
-==========
+
+```
+vi /etc/haproxy/haproxy.cfg
+/etc/init.d/haproxy restart
+```
+
 
 ## Shellinabox
-==============
+
+```
+vi /etc/default/shellinabox
+/etc/init.d/shellinabox restart
+```
 
 ## net2ftp
-==========
 
+```
+vi /etc/apache2/httpd.conf
+service apache2 reload
+```
